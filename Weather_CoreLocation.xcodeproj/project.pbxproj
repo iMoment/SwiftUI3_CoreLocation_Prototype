@@ -14,6 +14,7 @@
 		91487C3E27723B2E00A1C616 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C3D27723B2E00A1C616 /* LocationManager.swift */; };
 		91487C4127723C7B00A1C616 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C4027723C7B00A1C616 /* WelcomeView.swift */; };
 		91487C4327726C7000A1C616 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C4227726C7000A1C616 /* LoadingView.swift */; };
+		91487C4527726E3200A1C616 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C4427726E3200A1C616 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		91487C3D27723B2E00A1C616 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		91487C4027723C7B00A1C616 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		91487C4227726C7000A1C616 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		91487C4427726E3200A1C616 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				91487C3D27723B2E00A1C616 /* LocationManager.swift */,
+				91487C4427726E3200A1C616 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91487C4527726E3200A1C616 /* WeatherManager.swift in Sources */,
 				91487C31277236C300A1C616 /* ContentView.swift in Sources */,
 				91487C2F277236C300A1C616 /* Weather_CoreLocationApp.swift in Sources */,
 				91487C3E27723B2E00A1C616 /* LocationManager.swift in Sources */,
