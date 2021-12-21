@@ -19,6 +19,7 @@
 		91487C49277272C700A1C616 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C48277272C700A1C616 /* ModelData.swift */; };
 		91487C4B277273B900A1C616 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91487C4A277273B900A1C616 /* weatherData.json */; };
 		91487C4D2772744000A1C616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C4C2772744000A1C616 /* Constants.swift */; };
+		91487C4F277276A900A1C616 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C4E277276A900A1C616 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		91487C48277272C700A1C616 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		91487C4A277273B900A1C616 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
 		91487C4C2772744000A1C616 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91487C4E277276A900A1C616 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				91487C2E277236C300A1C616 /* Weather_CoreLocationApp.swift */,
 				91487C4C2772744000A1C616 /* Constants.swift */,
+				91487C4E277276A900A1C616 /* Extensions.swift */,
 				91487C3F27723C2400A1C616 /* Views */,
 				91487C3C27723B1F00A1C616 /* Managers */,
 				91487C32277236C400A1C616 /* Assets.xcassets */,
@@ -183,6 +186,7 @@
 				91487C2F277236C300A1C616 /* Weather_CoreLocationApp.swift in Sources */,
 				91487C3E27723B2E00A1C616 /* LocationManager.swift in Sources */,
 				91487C4327726C7000A1C616 /* LoadingView.swift in Sources */,
+				91487C4F277276A900A1C616 /* Extensions.swift in Sources */,
 				91487C49277272C700A1C616 /* ModelData.swift in Sources */,
 				91487C472772726100A1C616 /* WeatherView.swift in Sources */,
 				91487C4127723C7B00A1C616 /* WelcomeView.swift in Sources */,
