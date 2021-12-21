@@ -11,6 +11,7 @@
 		91487C31277236C300A1C616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C30277236C300A1C616 /* ContentView.swift */; };
 		91487C33277236C400A1C616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91487C32277236C400A1C616 /* Assets.xcassets */; };
 		91487C36277236C400A1C616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91487C35277236C400A1C616 /* Preview Assets.xcassets */; };
+		91487C3E27723B2E00A1C616 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91487C3D27723B2E00A1C616 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		91487C30277236C300A1C616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91487C32277236C400A1C616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91487C35277236C400A1C616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91487C3D27723B2E00A1C616 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		91487C2D277236C300A1C616 /* Weather_CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
+				91487C3C27723B1F00A1C616 /* Managers */,
 				91487C2E277236C300A1C616 /* Weather_CoreLocationApp.swift */,
 				91487C30277236C300A1C616 /* ContentView.swift */,
 				91487C32277236C400A1C616 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				91487C35277236C400A1C616 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91487C3C27723B1F00A1C616 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				91487C3D27723B2E00A1C616 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				91487C31277236C300A1C616 /* ContentView.swift in Sources */,
 				91487C2F277236C300A1C616 /* Weather_CoreLocationApp.swift in Sources */,
+				91487C3E27723B2E00A1C616 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
